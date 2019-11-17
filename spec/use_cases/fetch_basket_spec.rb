@@ -1,6 +1,5 @@
 require 'spec_helper'
 require 'dry/monads'
-
 require './basket/use_cases/fetch_basket'
 
 RSpec.describe Basket::UseCases::FetchBasket do

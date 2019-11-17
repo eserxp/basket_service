@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'base'
-require_relative '../repository/basket_repository'
+require_relative '../repositories/basket_repository'
 require_relative '../use_cases/fetch_basket'
 
 module Basket
@@ -15,7 +15,7 @@ module Basket
       private
 
       def products_repository
-        Basket::Repository::BasketRepository.new(database_handler)
+        Basket::Repositories::BasketRepository.new(database_handler)
         # .fetch(:products, where: { id: params['id'] })
       end
     end

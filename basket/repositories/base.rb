@@ -3,13 +3,12 @@
 require_relative 'base'
 
 module Basket
-  module Repository
+  module Repositories
     class Base
       attr_reader :database_handler
 
-      def initialize(database_handler, query)
+      def initialize(database_handler)
         @database_handler = database_handler
-        @query = query
       end
     end
   end
