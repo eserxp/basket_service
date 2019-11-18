@@ -9,11 +9,11 @@ module Basket
 
     attr_reader :database_config, :template_config
 
-    def initialize(file_path=DEFAULT_FILE_PATH)
-      config_detail = YAML.load(File.read(file_path))
+    def initialize(file_path = DEFAULT_FILE_PATH)
+      config_file = YAML.safe_load(File.read(file_path))
 
-      @database_config = config_detail[:database]
-      @template_config = config_detail[:templates]
+      @database_config = config_file['database']
+      @template_config = config_file['templates']
     end
   end
 end

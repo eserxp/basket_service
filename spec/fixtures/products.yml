@@ -1,0 +1,12 @@
+products:
+  - code: '001'
+    name: 'Snickers'
+    price: 1.50
+  
+  - code: '002'
+    name: 'Kit Kat'
+    price: 1.00
+  
+  - code: '003'
+    name: 'Bounty'
+    price: 1.20

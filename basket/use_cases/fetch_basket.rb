@@ -7,14 +7,14 @@ module Basket
       include Dry::Monads::Do.for(:run)
 
       def run
-        basket_id_parameters = yield validate(params)
-        basket_parameters = yield fetch(@repository, basket_id_parameters)
+        basket_parameters = yield validate(params)
+        products = yield fetch(@repository, basket_id: basket_parameters[:id])
 
         Success(
           Basket::Entities::BasketEntity.new(
             id: basket_parameters[:id],
-            products: basket_parameters[:products].map { |product| Product.new(product) },
-            promotions: basket_parameters[:promotions].map { |promotion| Product.new(promotion) }
+            products: products,
+            promotions: []
           )
         )
       end
@@ -29,8 +29,8 @@ module Basket
         end
       end
 
-      def fetch(basket_repository, basket_parameters)
-        Success(basket_repository.where(basket_parameters))
+      def fetch(basket_repository, **kwargs)
+        Success(basket_repository.where(kwargs))
       rescue
         Failure(:db_error)
       end

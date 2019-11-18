@@ -18,7 +18,7 @@ RSpec.describe Basket::UseCases::FetchBasket do
     context 'when basket_id provided' do
       it 'returns a basket entity object' do
         context = double('app', params: {id: 1})
-        products_repository = double('repository', where: {id: 1, products: [], promotions: []})
+        products_repository = double('repository', where: [])
 
         use_case = Basket::UseCases::FetchBasket.new(context, products_repository)
 

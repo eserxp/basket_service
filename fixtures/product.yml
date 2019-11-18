@@ -1,0 +1,202 @@
+products:
+  - code: '789425'
+    name: Bread - Olive Dinner Roll
+    size: M
+    price: "£4.80"
+  - code: '734262'
+    name: Wine - Semi Dry Riesling Vineland
+    size: 3XL
+    price: "£9.87"
+  - code: '894099'
+    name: Beans - Black Bean, Dry
+    size: XS
+    price: "£2.63"
+  - code: '586434'
+    name: Nut - Peanut, Roasted
+    size: 3XL
+    price: "£6.89"
+  - code: '006333'
+    name: Egg - Salad Premix
+    size: XL
+    price: "£4.84"
+  - code: '311646'
+    name: Beef - Striploin Aa
+    size: M
+    price: "£5.46"
+  - code: '683679'
+    name: Black Currants
+    size: M
+    price: "£8.99"
+  - code: '968666'
+    name: Chocolate - Liqueur Cups With Foil
+    size: 2XL
+    price: "£9.61"
+  - code: '684485'
+    name: Wiberg Super Cure
+    size: XL
+    price: "£4.10"
+  - code: '244992'
+    name: Nori Sea Weed
+    size: XL
+    price: "£3.72"
+  - code: '907092'
+    name: Gooseberry
+    size: M
+    price: "£1.51"
+  - code: '704837'
+    name: Nantucket Apple Juice
+    size: 3XL
+    price: "£2.35"
+  - code: '582314'
+    name: Pastry - Choclate Baked
+    size: S
+    price: "£7.93"
+  - code: '897725'
+    name: Mushroom - Morels, Dry
+    size: L
+    price: "£7.78"
+  - code: '756248'
+    name: Soup Campbells - Tomato Bisque
+    size: S
+    price: "£9.03"
+  - code: '806241'
+    name: Yeast Dry - Fleischman
+    size: M
+    price: "£8.06"
+  - code: '886335'
+    name: Pastry - Banana Tea Loaf
+    size: S
+    price: "£3.93"
+  - code: '218129'
+    name: Milk - Chocolate 250 Ml
+    size: XS
+    price: "£2.36"
+  - code: '604606'
+    name: Wine - Cave Springs Dry Riesling
+    size: M
+    price: "£7.13"
+  - code: '933932'
+    name: Cheese - Valancey
+    size: L
+    price: "£3.54"
+  - code: '645536'
+    name: English Muffin
+    size: L
+    price: "£1.32"
+  - code: '694417'
+    name: Salt And Pepper Mix - White
+    size: L
+    price: "£6.76"
+  - code: 097015
+    name: Trout Rainbow Whole
+    size: S
+    price: "£4.89"
+  - code: '964887'
+    name: Salt And Pepper Mix - Black
+    size: XL
+    price: "£4.84"
+  - code: '025374'
+    name: Veal - Osso Bucco
+    size: 3XL
+    price: "£0.80"
+  - code: '363590'
+    name: Beef - Diced
+    size: L
+    price: "£8.75"
+  - code: '958670'
+    name: Beer - Upper Canada Light
+    size: XS
+    price: "£8.85"
+  - code: '481787'
+    name: Wine - Beringer Founders Estate
+    size: XS
+    price: "£0.66"
+  - code: '576848'
+    name: Longos - Grilled Veg Sandwiches
+    size: L
+    price: "£7.26"
+  - code: '837553'
+    name: Kiwi Gold Zespri
+    size: 2XL
+    price: "£5.17"
+  - code: '726596'
+    name: Soup - Knorr, Veg / Beef
+    size: M
+    price: "£9.03"
+  - code: '022545'
+    name: Sauce - Gravy, Au Jus, Mix
+    size: M
+    price: "£5.64"
+  - code: '657526'
+    name: Oil - Sunflower
+    size: 3XL
+    price: "£3.42"
+  - code: '603408'
+    name: Sauce - Cranberry
+    size: M
+    price: "£0.95"
+  - code: '603780'
+    name: Venison - Denver Leg Boneless
+    size: 3XL
+    price: "£1.01"
+  - code: '971996'
+    name: Nut - Almond, Blanched, Ground
+    size: S
+    price: "£7.11"
+  - code: '589782'
+    name: True - Vue Containers
+    size: M
+    price: "£0.10"
+  - code: 092546
+    name: Chocolate Bar - Reese Pieces
+    size: XL
+    price: "£4.53"
+  - code: '939407'
+    name: Dried Cranberries
+    size: S
+    price: "£8.02"
+  - code: '167352'
+    name: Dry Ice
+    size: M
+    price: "£9.49"
+  - code: '231997'
+    name: Wine - Chianti Classica Docg
+    size: M
+    price: "£1.61"
+  - code: 093316
+    name: Muffin - Mix - Strawberry Rhubarb
+    size: M
+    price: "£8.48"
+  - code: '448895'
+    name: Sauce - Plum
+    size: M
+    price: "£7.61"
+  - code: '389734'
+    name: Country Roll
+    size: M
+    price: "£4.07"
+  - code: '146555'
+    name: Table Cloth 62x114 White
+    size: S
+    price: "£2.82"
+  - code: '197463'
+    name: Artichoke - Bottom, Canned
+    size: 3XL
+    price: "£2.44"
+  - code: '871496'
+    name: Barramundi
+    size: M
+    price: "£9.93"
+  - code: '772245'
+    name: Pastry - Key Limepoppy Seed Tea
+    size: M
+    price: "£9.51"
+  - code: '335591'
+    name: Tumeric
+    size: XS
+    price: "£5.83"
+  - code: '565615'
+    name: Cleaner - Lime Away
+    size: XL
+    price: "£9.21"
+  
