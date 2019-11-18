@@ -12,10 +12,10 @@ module Basket
                   :total_discount,
                   :discounted_price
 
-      def initialize(kwargs = {})
-        @id = kwargs.fetch(:id, nil)
-        @products = kwargs.fetch(:products, [])
-        @promotions = kwargs.fetch(:promotions, [])
+      def initialize(id: nil, products: [], promotions: [])
+        @id = id
+        @products = products
+        @promotions = promotions
         @total_price = calculate_total_price
         @total_discount = calculate_total_discount
         @discounted_price = calculate_discounted_price

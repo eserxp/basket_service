@@ -11,6 +11,16 @@ module Basket
       @template_handler = template_handler
     end
 
-    get('/basket/:id', provides: 'json') { Basket::Controller::GetBasket.new(self, database_handler, template_handler).run }
+    get('/basket/:id', provides: 'json') { Basket::Controller::GetBasket.new(**controller_parameters).run }
+
+    private
+
+    def controller_parameters
+      {
+        database_handler: database_handler,
+        template_handler: template_handler,
+        params: params
+      }
+    end
   end
 end

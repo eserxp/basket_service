@@ -8,7 +8,7 @@ module Basket
 
       def run
         basket_parameters = yield validate(params)
-        products = yield fetch(@repository, basket_id: basket_parameters[:id])
+        products = yield fetch(repository, basket_id: basket_parameters[:id])
 
         Success(
           Basket::Entities::BasketEntity.new(

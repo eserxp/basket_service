@@ -8,7 +8,7 @@ module Basket
   module Controller
     class GetBasket < Basket::Controller::Base
       def run
-        Basket::UseCases::FetchBasket.new(context, products_repository).run
+        Basket::UseCases::FetchBasket.new(repository: products_repository, params: params).run
       end
 
       private

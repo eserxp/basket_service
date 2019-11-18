@@ -7,15 +7,11 @@ module Basket
       include Dry::Monads[:result]
       include Dry::Monads::Do.for(:run)
 
-      def initialize(context, repository)
-        @context = context
+      attr_reader :params, :repository
+
+      def initialize(repository:, params: {})
+        @params = params
         @repository = repository
-      end
-
-      private
-
-      def params
-        @context.params || {}
       end
     end
   end
