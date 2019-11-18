@@ -8,15 +8,13 @@ module Basket
   module Controller
     class GetBasket < Basket::Controller::Base
       def run
-        products = Basket::UseCases::FetchBasket.new(context, products_repository).run
-        # template_handler(:products, )
+        Basket::UseCases::FetchBasket.new(context, products_repository).run
       end
 
       private
 
       def products_repository
         Basket::Repositories::ProductsRepository.new(database_handler)
-        # .fetch(:products, where: { id: params['id'] })
       end
     end
   end

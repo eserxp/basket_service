@@ -6,7 +6,7 @@ require './basket/controller/get_basket'
 
 RSpec.describe Basket::App do
   include Rack::Test::Methods
-  let(:database_handler) { double('database_handler') }
+  let(:database_handler) { DatabaseHandler.new({'path' => './spec/fixtures/*'}) }
   let(:template_handler) { double('template_handler') }
 
   def app

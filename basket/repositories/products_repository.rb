@@ -6,7 +6,7 @@ module Basket
       def where(kwargs = {})
         products = @database_handler.database['products']
 
-        if kwargs.length > 0
+        if !kwargs.empty?
           products.select { |product| kwargs.transform_keys(&:to_s).map { |k, v| product[k] == v }.uniq == [true] }
         else
           products
